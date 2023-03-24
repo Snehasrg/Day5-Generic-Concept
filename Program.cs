@@ -5,8 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Generic Concepts Problems");
-            Console.WriteLine("Select any one option \n 1. Delete Integer Element \n 2. Delete Double Element \n" +
-                " 3. Delete Character Element");
+            Console.WriteLine("Select any one option \n 1. Delete Integer,double,character element in array");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -16,16 +15,12 @@
                     Console.WriteLine("Plese pick up any one element");
                     int delete = Convert.ToInt32(Console.ReadLine());
                     DeleteArrayElement.DeleteIntElement(intArry, delete);
-                    break;
-
-                case 2:
+                    
                     double[] doubleArry = DeleteArrayElement.GetDoubleElement();
                     Console.WriteLine("Plese pick up any one element");
                     double doubleDelete = Convert.ToDouble(Console.ReadLine());
                     DeleteArrayElement.DeleteDoubleElement(doubleArry, doubleDelete);
-                    break;
                     
-                case 3:
                     char[] charArry = DeleteArrayElement.GetCharElement();
                     Console.WriteLine("Plese pick up any one element");
                     char charDelete = Convert.ToChar(Console.ReadLine());
