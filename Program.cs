@@ -9,7 +9,8 @@ namespace GenericConcept
             Console.WriteLine("Welcome To Generic Concepts Problems");
             Console.WriteLine("Select any one option:- \n1.Delete Integer,double,character Element from array." +
                               "\n2.Generic Method to Delete Integer,double,character Element from array." +
-                              "\n3.Generic Class to Delete Integer,double,character Element from array.");
+                              "\n3.Generic Class to Delete Integer,double,character Element from array." +
+                              "\n4.Find Minimum Integer value.");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -64,6 +65,9 @@ namespace GenericConcept
                     char charDeleteGenericClass = Convert.ToChar(Console.ReadLine());
                     GenericClass<char> deleteElementGeneric2 = new GenericClass<char>(charArryGenericClass, charDeleteGenericClass);
                     deleteElementGeneric2.RemoveElementFromGenericClass();
+                    break;
+                case 4:
+                    FindMinimum.IntMin();
                     break;
 
 
