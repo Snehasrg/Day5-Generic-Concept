@@ -16,7 +16,7 @@
                     k++;
                 }
             }
-            Console.WriteLine("\nResult After Delete Elemnet ");
+            Console.WriteLine("Result After Delete Element ");
             foreach (int j in result)
             {
                 Console.Write(j + " ");
@@ -37,7 +37,7 @@
                 }
             }
 
-            Console.WriteLine("\nResult After Delete Element ");
+            Console.WriteLine("Result After Delete Element ");
             foreach (double j in result)
             {
                 Console.Write(j + " ");
@@ -58,7 +58,7 @@
                 }
             }
 
-            Console.WriteLine("\nResult After Delete Element ");
+            Console.WriteLine("Result After Delete Element ");
             foreach (char j in result)
             {
                 Console.Write(j + " ");
@@ -67,7 +67,7 @@
 
         public static int[] GetIntElement()
         {
-            Console.WriteLine("Enter How many elemets you want to add in array.");
+            Console.WriteLine("Enter How many elemets you want to add in int array.");
             DeleteArrayElement.size = Convert.ToInt32(Console.ReadLine());
             int[] arr = new int[DeleteArrayElement.size];
             Console.WriteLine("Please enter elements one by one");
@@ -80,7 +80,7 @@
 
         public static double[] GetDoubleElement()
         {
-            Console.WriteLine("Enter How many element you want to add in array");
+            Console.WriteLine("\nEnter How many element you want to add in double array");
             DeleteArrayElement.size = Convert.ToInt32(Console.ReadLine());
             double[] doubleArry = new double[DeleteArrayElement.size];
             Console.WriteLine("Please enter Double element one by one");
@@ -93,7 +93,7 @@
 
         public static char[] GetCharElement()
         {
-            Console.WriteLine("Enter How many element u want to add");
+            Console.WriteLine("\nEnter How many elements you want to add char array");
             DeleteArrayElement.size = Convert.ToInt32(Console.ReadLine());
             char[] charArry = new char[DeleteArrayElement.size];
             Console.WriteLine("Please enter charachter element one by one");
