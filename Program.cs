@@ -10,7 +10,7 @@ namespace GenericConcept
             Console.WriteLine("Select any one option:- \n1.Delete Integer,double,character Element from array." +
                               "\n2.Generic Method to Delete Integer,double,character Element from array." +
                               "\n3.Generic Class to Delete Integer,double,character Element from array." +
-                              "\n4.Find Minimum Integer value.");
+                              "\n4.Find Minimum Integer value.\n5.Find Minimum Double Value.");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -68,6 +68,9 @@ namespace GenericConcept
                     break;
                 case 4:
                     FindMinimum.IntMin();
+                    break;
+                case 5:
+                    FindMinimum.DoubleMin();
                     break;
 
 
